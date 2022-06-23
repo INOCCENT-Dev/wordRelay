@@ -1,0 +1,76 @@
+html{
+  display: flex;
+  justify-content: center;
+}
+
+.header{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  width: 120px;
+  height: 22px;
+
+  border-color: rgb(71, 71, 71);
+  border-radius: 4px;
+  border-width: 1px;
+
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+button{
+  width: 50px;
+  height: 25px;
+  
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(71, 71, 71);
+  
+  background-color: rgb(71, 71, 71);
+  
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+
+  margin-left: 10px;
+  
+  cursor: pointer;
+  
+  transition: all 0.2s;
+}
+  
+button:hover{
+  color: rgb(71, 71, 71);
+  background-color: white;
+}
+  
+button:active{
+  filter: brightness(80%);
+}
+
+.player{
+  background-color: rgba(189, 229, 255,0.5);
+  text-align: right;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.computer{
+  background-color: rgba(255, 189, 189, 0.5);
+  text-align: left;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+}
